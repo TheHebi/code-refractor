@@ -1,6 +1,6 @@
 # code-refractor
 
-## The purpose of this project is to learn how to refactor code (improving the code without changing what it does). My overall goal is to improve the accessibility of the site, while also updating non-symantic tags to be symantic for easier editing purposes for future developers.
+## The purpose of this project is to learn how to refactor code (improving the code without changing what it does). My overall goal is to improve the accessibility of the site, while also updating non-semantic elements to be semantic for easier editing purposes for future developers.
 
 BSD 2-Clause License
 
