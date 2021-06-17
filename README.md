@@ -2,6 +2,12 @@
 
 ## The purpose of this project is to learn how to refactor code (improving the code without changing what it does). My overall goal is to improve the accessibility of the site, while also updating non-semantic elements to be semantic for easier editing purposes for future developers.
 
+## I used the HTML semantics tag flowchart to help figure out which div tags to replace with  semantic tags, and which semantic tags were the appropriate choices.
+
+![screenshot1] (./assets/images/screenshot1.png)
+![screenshot1] (./assets/images/screenshot2.png)
+![screenshot1] (./assets/images/screensht3.png)
+
 BSD 2-Clause License
 
 Copyright (c) [2021], [Nathaniel Turcotte]
