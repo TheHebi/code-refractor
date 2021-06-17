@@ -1,13 +1,16 @@
+/* general box-sizing, padding, and margins for the whole page  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* primary background color for the whole page  */
 body {
     background-color: #d9dcd6;
 }
 
+/* header box that contains company name and nav bar  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* company name on left hand side of page  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* alternate color for seo in company name */
 /* removed .header and h1 to simplify code */
 .seo {
     color: #d9dcd6;
 }
 
+/* nav bar clickable properties */
 /* changed div to nav, removed .header to simplify code */
 nav {
     padding-top: 15px;
@@ -34,26 +40,31 @@ nav {
     font-size: 20px;
 }
 
+/* formatting for nav bar ul elements */
 /* changed div to nav, removed .header and nav to simplify code */
 ul {
     list-style-type: none;
 }
 
-/* changed div to nav, removed .header, nav, and ul to simplify code */
+/* formatting for nav bar li elements */
+/* removed .header, div, and ul to simplify code */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* text color for all a tagged elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font size for all p tagged elements */
 p {
     font-size: 16px;
 }
 
+/* background image between header and first article  */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,22 +74,25 @@ p {
     background-position: center;
 }
 
+/* left floating image for .search-engine-optimization and .search-engine-optimization */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* right floating  image for .online-reputation-management */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* box attributes for .content elements */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* box and text attributes for .benefits elements */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -90,6 +104,7 @@ p {
     background-color: #2589bd;
 }
 
+/* attributes for .benefit-lead .benefit-brand and .benefit-cost text */
 /* consolidated lead, brand, and cost text attributes */
 .benefit-lead,
 .benefit-brand,
@@ -98,6 +113,7 @@ p {
     color: #ffffff;
 }
 
+/* margin and text attributes for .benefit-lead h3, .benefit-brand h3, and .benefit-cost h3 */
 /* consolidated lead, brand, and cost h3 css attributes */
 .benefit-lead h3,
 .benefit-brand h3,
@@ -106,6 +122,7 @@ p {
     text-align: center;
 }
 
+/* img attributes for .benefit-lead, .benefit-brand, .benefit-cost */
 /* consolidated lead, brand, and cost img css attributes */
 .benefit-lead img,
 .benefit-brand img,
@@ -115,7 +132,8 @@ p {
     max-width: 150px;
 }
 
-/* consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing box properties */
+/* attributes for .search-engine-optimization, .online-reputation-management, and .social-media-marketing box */
+/* consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing box attributes */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -127,6 +145,7 @@ p {
     color: #ffffff;
 }
 
+/* img attributes for .search-engine-optimization, .online-reputation-management, and .social-media-marketing */
 /* consolidated .search-engine-optimization, .online-reputation-management, and .social-media-marketing img attributes */
 .search-engine-optimization img,
 .online-reputation-management img,
@@ -134,6 +153,7 @@ p {
     max-height: 200px;
 }
 
+/* h2 text attributes for .search-engine-optimization, .online-reputation-management, and .social-media-marketing */
 /* consolidated .search-engine-optimization, .online-reputation-management, and .social-media-marketing h2 text attributes */
 .search-engine-optimization h2,
 .online-reputation-management h2,
@@ -142,6 +162,7 @@ p {
     font-size: 36px;
 }
 
+/* text and box attributes for footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -149,6 +170,7 @@ p {
     text-align: center;
 }
 
+/* text attribute for footer h2 */
 .footer h2 {
     font-size: 20px;
 }
